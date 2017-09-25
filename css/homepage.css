@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 50px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: .28em;
+	color: #333;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:link{
+	text-decoration: none;
+	color: #333;
+}
+a:visited{
+	text-decoration: none;
+	color: #333;
+}
+ul,ol{
+	list-style: none;
+}
+/*顶部*/
+.top-navbar{
+	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	height: 1rem;
+	z-index: 999;
+}
+.nav-left{
+	height: 1rem;
+	line-height: 1rem;
+	float: left;
+}
+.nav-a{
+	display: block;
+	height: 100%;
+}
+.nav-city{
+	line-height: 1;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: .2rem;
+	margin-left: .2rem;
+	font-size: .32rem;
+}
+.search-box{
+	float: left;
+	border-radius: .6rem;
+	background-color: #E7E6E7;
+	height: .64rem;
+	line-height: .64rem;
+	margin-top: .2rem;
+	padding: 0;
+}
+.search-box a .icon-sousuo{
+	left: .2rem;
+	font-size: .26rem;
+	position: absolute;
+	color: #B8B3B7;
+}
+.search-box .search-tip{
+	font-size: .26rem;
+	padding-left: .6rem;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #B8B3B7;
+}
+/*底部栏*/
+.foot-navbar{
+	height: 1rem;
+	background-color: #fff;
+	opacity: .9;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.f-navbar-item{
+	width: 25%;
+	height: 1rem;
+	line-height: 1rem;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+}
+.f-navbar-item a{
+	padding: .1rem 0;
+}
+.f-navbar-item .item-icon{
+	width: .5rem;
+	height: .5rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.item-text{
+	display: block;
+	margin: 0 auto;
+	height: .3rem;
+	line-height: .4rem;
+	text-align: center;
+	font-size: .2rem;
+}
+.current .item-text{
+	color: #00BED7;
+}
+.home{
+	background-image:url(../img/图标-14.png);
+}
+.site{
+	background-image:url(../img/图标-15.png);
+}
+.order{
+	background-image:url(../img/图标-17.png);
+}
+.me{
+	background-image:url(../img/图标-16.png);
+}
+.current .home{
+	background-image:url(../img/图标-10.png)
+}
+.current .site{
+	background-image:url(../img/图标-11.png)
+}
+.current .order{
+	background-image:url(../img/图标-13.png)
+}
+.current .me{
+	background-image:url(../img/图标-12.png)
+}
+.main{
+	top: 1rem;
+	position: relative;
+}
+

@@ -1,0 +1,420 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 50px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: .28em;
+	color: #333;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:link{
+	text-decoration: none;
+	color: #333;
+}
+a:visited{
+	text-decoration: none;
+	color: #333;
+}
+ul,ol{
+	list-style: none;
+}
+
+
+/*轮播*/
+
+#myCarousel {
+	height: 3rem;
+	background-color: #CCEBF5;
+}
+
+.carousel-indicators {
+	bottom: .1rem;
+	margin-bottom: 0;
+}
+
+.carousel-indicators li {
+	width: .1rem;
+	height: .1rem;
+}
+
+.carousel-indicators .active {
+	width: .15rem;
+	height: .15rem;
+}
+
+
+/*分类*/
+
+.sort-container {
+	height: 4rem;
+	padding: .5rem 0;
+}
+
+.sort-ul {
+	overflow: hidden;
+	margin: 0;
+}
+
+.sort-ul .sort-item {
+	float: left;
+	height: 1.5rem;
+	width: 25%;
+}
+
+.sort-link {
+	display: block;
+	height: 1.5rem;
+	width: 1rem;
+	margin: 0 auto;
+}
+
+.sort-img-con {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+
+.sort-img {
+	width: 100%;
+	height: 100%;
+}
+
+.sort-text {
+	display: block;
+	width: 1rem;
+	height: .5rem;
+	line-height: .5rem;
+	text-align: center;
+	font-size: .3rem;
+}
+
+.sort-food {
+	background-color: #FDC6C5;
+}
+
+.sort-take {
+	background-color: #F4D5C5;
+}
+
+.sort-shop {
+	background-color: #E9E6C3;
+}
+
+.sort-hostel {
+	background-color: #C8E1C0;
+}
+
+.sort-play {
+	background-color: #B4DFD3;
+}
+
+.sort-ticket {
+	background-color: #B7E2E8;
+}
+
+.sort-train {
+	background-color: #C8C5E4;
+}
+
+.sort-money {
+	background-color: #F2C5DF;
+}
+
+
+/*霸王餐*/
+
+.king-meal-link {
+	display: block;
+	/*width: 100%;
+	height: 100%;*/
+	/*background-image: url(../img/网站-04.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+	position: relative;
+}
+
+.king-meal-img {
+	width: 100%;
+	height: 100%;
+}
+
+.king-meal-titlecon {
+	width: 100%;
+	height: .6rem;
+	padding-right: 3%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(rgba(0, 190, 215, .6), rgba(0, 190, 215, .1));
+	background: -webkit-linear-gradient(rgba(0, 190, 215, .6), rgba(0, 190, 215, .1));
+	background: -o-linear-gradient(rgba(0, 190, 215, .6), rgba(0, 190, 215, .1));
+	background: -moz-linear-gradient(rgba(0, 190, 215, .6), rgba(0, 190, 215, .1));
+}
+
+.king-meal-titlename,
+.king-meal-titletime {
+	display: block;
+	height: 45%;
+	line-height: 1;
+	text-align: right;
+	color: white;
+	font-size: .3rem;
+	padding-top: .02rem;
+}
+
+.countdown-d,
+.countdown-h,
+.countdown-m,
+.countdown-s {
+	display: inline-block;
+}
+
+.king-meal-titlebac {
+	display: inline-block;
+	/*width: 25%;*/
+	/*height: .62rem;*/
+	/*line-height: .6rem;*/
+	position: absolute;
+	top: -.02rem;
+	left: 0;
+	padding-left: 3%;
+	color: #fff;
+	border-top: .62rem solid #00BED7;
+	border-left: 1rem solid #00BED7;
+	border-right: .5rem solid transparent;
+}
+
+.king-meal-title {
+	display: inline-block;
+	width: 25%;
+	height: .62rem;
+	line-height: .6rem;
+	position: absolute;
+	top: -.02rem;
+	left: 0;
+	padding-left: 3%;
+	color: #fff;
+}
+
+
+/*特惠美食*/
+
+.special-food {
+	width: 100%;
+	background: #fff;
+	padding: .3rem .25rem .5rem;
+}
+
+.special-food .title {
+	height: .6rem;
+	width: 100%;
+	line-height: .5rem;
+	color: #00BED7;
+	font-size: .34rem;
+	margin: 0;
+}
+
+.food-item {
+	border: 1px solid #00BED7;
+	width: 100%;
+}
+
+#foodCarousel .food-link {
+	display: block;
+	position: relative;
+}
+
+.food-item .time {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 30%;
+	margin-left: 53%;
+	font-size: .2rem;
+}
+
+.food-item .time .time-d,
+.food-item .time .time-h,
+.food-item .time .time-m {
+	color: #00BED7;
+}
+
+.special-food .carousel-indicators {
+	bottom: -.4rem;
+}
+
+.special-food .carousel-indicators li {
+	border: 1px solid #00BED7;
+	border-radius: 50%;
+}
+
+.special-food .carousel-indicators .active {
+	background-color: #00BED7;
+	border-radius: 50%;
+}
+
+
+/*猜你喜欢*/
+
+.fav-con {
+	background-color: #E7E6E7;
+	padding-bottom: 1rem;
+}
+
+.fav-title {
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	overflow: hidden;
+}
+
+.title-ctn {
+	position: relative;
+	font-size: .3rem;
+	color: #B8B3B7;
+	line-height: 1rem;
+	display: block;
+}
+
+.title-ctn:before,
+.title-ctn:after {
+	content: '';
+	position: absolute;
+	width: 38%;
+	height: 1px;
+	background-color: #B8B3B7;
+	top: .5rem;
+}
+
+.title-ctn:before {
+	left: 0;
+}
+
+.title-ctn:after {
+	right: 0;
+}
+
+.title-ctn .icon {
+	position: relative;
+	top: 4px;
+	margin-right: 4px;
+	font-size: 20px;
+	color: #ff0036;
+	margin-left: 0;
+}
+
+.fav-com-con {
+	padding-left: .25rem;
+	overflow: hidden;
+}
+
+.fav-com-item {
+	width: 50%;
+	padding-right: .25rem;
+	margin-bottom: .25rem;
+	float: left;
+}
+
+.fav-com-link {
+	display: block;
+	border: 1px solid #B8B3B7;
+	background-color: #fff;
+}
+
+.fav-com-img {
+	width: 100%;
+	border: 1px solid #fff;
+}
+
+.fav-com-info {
+	width: 100%;
+	padding: .1rem;
+}
+
+.fav-com-info .info-item {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: .1rem;
+}
+
+.fav-com-info .fav-com-name {
+	font-size: .35rem;
+	font-weight: 700;
+}
+
+.fav-com-info .fav-com-tip,
+.fav-com-info .fav-com-other {
+	font-size: .2rem;
+	color: #8A8285;
+	position: relative;
+}
+
+.fav-com-info .fav-com-price {
+	float: left;
+}
+
+.fav-com-info .fav-com-price .limite-price {
+	font-size: .25rem;
+	color: #00BED7;
+	font-weight: 700;
+}
+
+.money {
+	font-style: normal;
+}
+
+.fav-com-info .fav-com-price .or-price {
+	color: #8A8285;
+	text-decoration: line-through;
+}
+
+.fav-com-info .fav-com-dis {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.fav-com-eva {
+	width: 100%;
+	font-size: .2rem;
+	line-height: .2rem;
+	color: #8A8285;
+	padding: .1rem;
+	border-top: 1px solid #E7E6E7;
+}
+
+.fav-com-eva-con {
+	position: relative;
+}
+
+.fav-com-evaleft .rate-b {
+	height: .2rem;
+	width: 1rem;
+	display: block;
+	background-image: url(../img/图标-18.png);
+	background-repeat: repeat-x;
+	background-size: .2rem;
+}
+
+.fav-com-evaleft .rate-s {
+	height: .2rem;
+	display: block;
+	background-image: url(../img/图标-09.png);
+	background-repeat: repeat-x;
+	background-size: .2rem;
+}
+
+.fav-com-evaright {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
