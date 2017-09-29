@@ -178,6 +178,9 @@ ul,ol{
 	overflow: hidden;
 	border-bottom: 1px solid #E7E6E7;
 }
+.pack-list .pack-item .pack-itemlink{
+	display: block;
+}
 .pack-list .pack-item .pack-item-img{
 	width: 1.9rem;
 	float: left;
