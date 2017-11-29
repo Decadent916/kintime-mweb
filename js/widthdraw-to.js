@@ -1,0 +1,66 @@
+$(function(){
+	$('.bank-select').bind('click',function(){
+		$('.discount-con').css('display','block');
+		$('.select-con').css('display','block');
+	});
+	$('.discount-con').bind('click',function(e){
+		e.stopPropagation();
+	});
+	$('.select-con').bind('click',function(e){
+		e.stopPropagation();
+	});
+	$('.tips-con').bind('click',function(e){
+		e.stopPropagation();
+	});
+	$('.bank-item').bind('click',function(e){
+		$('.bank-item').removeClass('selected');
+		$(this).addClass('selected');
+	});
+	$('.determine-btn').bind('click',function(e){
+		if($('.bank-item.selected').hasClass('bank-olditem')){
+			$('.discount-item').css('display','none');
+			$('.discount-con').css('display','none');
+		}else{
+			$('.discount-item').css('display','none');
+			$('.tips-con').css('display','block');
+		};
+	});
+	$('.ok-btn').bind('click',function(e){
+		$('.discount-item').css('display','none');
+		$('.discount-con').css('display','none');
+	});
+	$('.no-btn').bind('click',function(e){
+		$('.discount-item').css('display','none');
+		$('.discount-con').css('display','none');
+		$('.bank-item').removeClass('selected');
+		$('.bank-item').eq(0).addClass('selected');
+	});
+//	提现按钮
+	$('.widthdraw-btn').bind('click',function(){
+		$('.discount-con').css('display','block');
+		$('.pay-con').css('display','block');
+	})
+	$('.pay-title .iconfont').bind('click',function(){
+		$('.discount-item').css('display','none');
+		$('.discount-con').css('display','none');
+		$('.lattice').text('');
+		$('#pay-pass').val('');
+	})
+//	支付密码
+	$('#pay-pass').focus(function(){
+		$('.lattice').css('border-color','#00BED7')
+	});
+	$('#pay-pass').blur(function(){
+		$('.lattice').css('border-color','#1E0F00')
+	});
+	$('#pay-pass').bind('input',function(e){
+		var pw = $('#pay-pass').val();
+		for(var i=0;i<6;i++){
+			if(pw[i]){
+				$($('.lattice')[i]).text('*')
+			}else{
+				$($('.lattice')[i]).text('')
+			}
+		}
+	})
+})

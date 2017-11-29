@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telphone=no,email=no" />
+		<meta name="renderer" content="webkit"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="HandheldFriendly" content="true"/>
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="screen-orientation" content="portrait"/>
+		<meta name="x5-orientation" content="portrait"/>
+		<meta name="full-screen" content="yes"/>
+		<meta name="x5-fullscreen" content="true"/>
+		<meta name="browsermode" content="application"/>
+		<meta name="x5-page-mode" content="app"/>
+		<meta name="msapplication-tap-highlight" content="no"/>
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+	</head>
+	<body>
+		<header>
+			<div class="top-navbar">
+				<i class="iconfont icon-fanhui"></i>
+				<span class="">帐号注册</span>
+			</div>
+		</header>
+		<div class="main">
+			<div class="main-con">
+				<div class="input-con">
+					<span class="icon-con">
+						<i class="iconfont icon-ren"></i>
+					</span>
+					<input type="text" value="请输入手机号" id="phone"/>
+				</div>
+				<div class="input-con">
+					<input type="text" value="请输入短信验证码" id="sms"/>
+					<button class="send-sms">
+						<span class="time-text">
+							<span class="num">60</span>s后可再次发送
+						</span>
+						<span class="allow-text">
+							发送验证码
+						</span>
+						<span class="success">
+							<i class="iconfont icon-ok"></i>验证成功
+						</span>
+					</button>
+				</div>
+				<div class="input-con">
+					<span class="icon-con">
+						<i class="iconfont icon-suo"></i>
+					</span>
+					<input type="text" value="请输入密码（8~16位，包含字母与数字）" id="password1" class="password"/>
+					<i class="iconfont icon-shurukuangqingkong error"></i>
+				</div>
+				<div class="input-con">
+					<span class="icon-con">
+						<i class="iconfont icon-suo"></i>
+					</span>
+					<input type="text" value="请再次输入密码" id="password2" class="password"/>
+				</div>
+				<button class="register-btn">注册</button>
+				<div class="tip">
+					<i class="iconfont icon-shurukuangqingkong"></i>
+					<span class="tip-text">请确认密码在8~16位且同时包含字母和数字</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

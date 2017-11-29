@@ -1,0 +1,56 @@
+body{
+	background: #F0EFEF;
+}
+header{
+	width: 100%;
+	padding: 1rem 0;
+	text-align: center;
+	background: #00BED7;
+	font-size: .4rem;
+	color: #fff;
+}
+header .img{
+	display: flex;
+	display: -webkit-flex;
+	width: 1rem;
+	height: 1rem;
+	margin: 0 auto .4rem;
+	background: #fff;
+	border-radius: .5rem;
+	justify-content: center;
+	align-self: center;
+}
+header .img .iconfont{
+	font-size: .7rem;
+	font-weight: 700;
+	color: #0099DA;
+}
+.card-item .img .iconfont{
+	font-size: .8rem;
+}
+header .title{
+	display: block;
+	width: 100%;
+}
+
+/*提示*/
+.tips-con{
+	width: 100%;
+	text-align: center;
+	padding: .8rem 0;
+	color: #B8B3B7;
+}
+/*按钮*/
+.determine-btn{
+	width: 90%;
+	height: 1rem;
+	margin: 0 5%;
+	border: none;
+	outline: none;
+	background: #00BED7;
+	font-size: .3rem;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	border-radius: 8px;
+}

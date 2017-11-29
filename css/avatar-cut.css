@@ -1,0 +1,51 @@
+body{
+	background: #F0EFEF;
+	font-size: .3rem;
+	color: #000;
+}
+header{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	padding: 0 .2rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #B8B3B6;
+}
+header .over{
+	padding: 0 .2rem;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #00BDD6;
+	font-size: .3rem;
+}
+.avatar-con{
+	width: 100%;
+	top: .8rem;
+	bottom: 0;
+	position: absolute;
+	background: #fff;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.img-con{
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+}
+.discount-con{
+	top: .8rem;
+	display: block;
+}
+#cover-box{
+	position: absolute;
+	z-index: 2;
+	border: 1px dashed #00BDD6;
+}

@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 50px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: .28em;
+	color: #333;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:link{
+	text-decoration: none;
+	color: #333;
+}
+a:visited{
+	text-decoration: none;
+	color: #333;
+}
+ul,ol{
+	list-style: none;
+	margin: 0;
+}
+.money{
+	font-style: normal;
+}
+/*头部*/
+header{
+	position: fixed;
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	z-index: 990;
+	background: #fff;
+}
+header .top-navbar{
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .3rem;
+	padding: 0 .2rem;
+}
+/*主体*/
+.main{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	top: 1rem;
+}
+.main .main-con{
+	position: absolute;
+	top: 5%;
+	width: 100%;
+	padding: 0 .2rem;
+}
+.main-con .input-con{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	border: 1px solid #B8B3B7;
+	padding-left: .1rem;
+	color: #B8B3B7;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom:.2rem;
+	position: relative;
+}
+.main-con .input-con .icon-con{
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	display: block;
+	float: left;
+}
+.main-con .input-con .iconfont{
+	font-size: .5rem;
+}
+.main-con .input-con input{
+	height: 100%;
+	width: 90%;
+	font-size: .3rem;
+	float: right;
+	border: none;
+	outline: medium;
+	color: #B8B3B7;
+}
+.main-con .input-con .error{
+	position: absolute;
+	right: .1rem;
+	color: #F24842;
+	font-size: .3rem;
+	display: none;
+}
+.input-con.error .error{
+	display: block;
+}
+.main-con .input-con #sms{
+	height: 100%;
+	width: 60%;
+	font-size: .3rem;
+	float: left;
+	border: none;
+	outline: medium;
+	color: #B8B3B7;
+}
+.main-con .input-con .send-sms{
+	height: 100%;
+	width: 40%;
+	font-size: .3rem;
+	float: right;
+	border: none;
+	color: #fff;
+	text-align: center;
+	background: #00BED7;
+	outline: none;
+}
+.send-sms .time-text{
+	display: none;
+}
+.send-sms .success{
+	display: none;
+}
+.send-sms .success .iconfont{
+	font-size: .3rem;
+	margin-right: .1rem;
+}
+.main-con .input-con .send-sms.no{
+	background: #E8E6E7;
+	color: #B8B3B7;
+}
+.main-con .input-con .send-sms.success{
+	background: #00B3AB;
+	color: #fff;
+}
+.send-sms.no .time-text{
+	display: block;
+}
+.send-sms.no .allow-text{
+	display: none;
+}
+.send-sms.success .success{
+	display: block;
+}
+.send-sms.success .allow-text{
+	display: none;
+}
+.main-con .register-btn{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	background: #00BED7;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: .3rem;
+	letter-spacing: .2rem;
+	margin-top: .5rem;
+}
+.main-con .register-btn.disabled{
+	background: #B8B3B7;
+}
+.main-con .tip{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	color: #F24842;
+	text-align: center;
+}
+
+
+

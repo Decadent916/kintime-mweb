@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 50px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: .28em;
+	color: #333;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:link{
+	text-decoration: none;
+	color: #333;
+}
+a:visited{
+	text-decoration: none;
+	color: #333;
+}
+ul,ol{
+	list-style: none;
+	margin: 0;
+}
+.money{
+	font-style: normal;
+}
+
+/*头部*/
+header{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	padding: 0 .2rem;
+	font-size: .3rem;
+	z-index: 990;
+	background: #E8E6E7;
+	position: fixed;
+	top: 0;
+}
+/*内容*/
+.main{
+	top: 1rem;
+	width: 100%;
+	position: relative;
+}
+.main .user-info-con{
+	width: 100%;
+	padding: .1rem .2rem;
+	border-bottom: 1px solid #B8B3B7;
+	overflow: hidden;
+}
+.main .title{
+	width: 25%;
+	height: .8rem;
+	font-weight: 700;
+	float: left;
+	line-height: .8rem;
+}
+.user-info-con .name,.address-con .address{
+	width: 75%;
+	float: right;
+	line-height: .8rem;
+}
+.name .name-con{
+	width: 100%;
+	height: .8rem;
+	border-bottom: 1px solid #B8B3B7;
+}
+#name,#phone,#address{
+	border: none;
+	outline: none;
+	color: #B8B3B7;
+	width: 100%;
+	height: .4rem;
+}
+.name .sex{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	color: #B8B3B7;
+}
+.sex .sex-con{
+	padding: .1rem .2rem;
+	border: 1px solid #B8B3B7;
+	border-radius: 4px;
+}
+.sex .sex-con.select{
+	background: #00BED7;
+	color: #fff;
+	border: none;
+}
+
+.main .phone,.main .address-con{
+	width: 100%;
+	border-bottom: 1px solid #B8B3B7;
+	padding: 0 .2rem;
+	overflow: hidden;
+}
+.phone .phone-con{
+	width: 75%;
+	height: .8rem;
+	line-height: .8rem;
+	float: right;
+}
+
+.address .address-text,.address .address-select{
+	width: 100%;
+	height: .8rem;
+}
+.address .address-select{
+	border-bottom: 1px solid #B8B3B7;
+}
+.address-select .street{
+	border: none;
+	outline: none;
+	color: #B8B3B7;
+}
+
+.main .btn-con{
+	padding: 0 .2rem;
+	margin-top: 2rem;
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+}
+.btn-con .determine{
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: #00BED7;
+	border-radius: 4px;
+	color: #fff;
+	font-size: .3rem;
+	letter-spacing: .1rem;
+}

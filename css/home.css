@@ -26,7 +26,57 @@ ul,ol{
 	list-style: none;
 }
 
-
+/*顶部*/
+.top-navbar{
+	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	height: 1rem;
+	z-index: 999;
+}
+.nav-left{
+	height: 1rem;
+	line-height: 1rem;
+	float: left;
+}
+.nav-a{
+	display: block;
+	height: 100%;
+}
+.nav-city{
+	line-height: 1;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: .2rem;
+	margin-left: .2rem;
+	font-size: .32rem;
+}
+.search-box{
+	float: left;
+	border-radius: .6rem;
+	background-color: #E7E6E7;
+	height: .64rem;
+	line-height: .64rem;
+	margin-top: .2rem;
+	padding: 0;
+}
+.search-box a .icon-sousuo{
+	left: .2rem;
+	font-size: .26rem;
+	position: absolute;
+	color: #B8B3B7;
+}
+.search-box .search-tip{
+	font-size: .26rem;
+	padding-left: .6rem;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #B8B3B7;
+}
 /*轮播*/
 
 #myCarousel {

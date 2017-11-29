@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 50px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: .28em;
+	color: #333;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:link{
+	text-decoration: none;
+	color: #333;
+}
+a:visited{
+	text-decoration: none;
+	color: #333;
+}
+ul,ol{
+	list-style: none;
+	margin: 0;
+}
+.money{
+	font-style: normal;
+}
+/*头部*/
+header{
+	position: fixed;
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	z-index: 990;
+	background: #fff;
+}
+header .top-navbar{
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .3rem;
+	padding: 0 .2rem;
+}
+/*主体*/
+.main{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	top: 1rem;
+}
+.main .tip-con{
+	position: absolute;
+	top: 15%;
+	width: 100%;
+	padding:  0 .2rem;
+}
+.main .tip{
+	text-align: center;
+	height: .5rem;
+	line-height: .5rem;
+	width: 100%;
+}
+.main .btn-con{
+	position: absolute;
+	top: 30%;
+	padding: 0 .2rem;
+	width: 100%;
+}
+.btn-con button{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	background: #00BED7;
+	border: none;
+	border-radius: 5px;
+	margin-top: .5rem;
+	color: #fff;
+	font-size: .3rem;
+	letter-spacing: .2rem;
+}
